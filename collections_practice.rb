@@ -63,4 +63,3 @@ end
 def add_s array
   array.each_with_index.collect {|el, i| el += "s" if i != 1;el}
 end
-
